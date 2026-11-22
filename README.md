@@ -103,6 +103,24 @@
 
 ## Избранные проекты
 
+Два живых контура опубликованы как архитектурные витрины. Рабочий код и данные остаются приватными.
+
+### [Okno Vozm](https://github.com/lexesus93/okno_vozm)
+
+Личный рабочий контур карьерной аналитики: события внимания, версии профиля, сверка публикаций и каналы данных.
+
+`Python · FastAPI · React · Electron · SQLite · Docker`
+
+[Архитектура, границы и экраны](https://github.com/lexesus93/okno_vozm)
+
+### [Мастер-данные закупочного контура](https://github.com/lexesus93/master-data-catalog)
+
+Рабочий контур карточек, циклов закупки, сопоставления, документов и связей с CRM. Публичная страница обезличена: без организации, номенклатуры и коммерческих значений.
+
+`Node.js · PostgreSQL · Docker Compose · REST API`
+
+[Архитектура, границы и экраны](https://github.com/lexesus93/master-data-catalog)
+
 ### Corporate Knowledge Assistant
 
 Корпоративная база знаний и AI-помощник для технической поддержки и пресейла.
@@ -111,29 +129,12 @@
 
 `Python · FastAPI · Celery · React · PostgreSQL · Redis · Qdrant · Docker`
 
-### [Safe Dialog](https://github.com/lexesus93/safe_dialog)
-
-Контур для работы с облачными языковыми моделями. Чувствительные сущности определяются и маскируются локально, после чего обработанный текст отправляется модели. В полученном ответе исходные данные восстанавливаются.
-
-`FastAPI · React · TypeScript · Ollama · OpenRouter · Docker`
-
-### [Telegram Knowledge Assistant](https://github.com/lexesus93/tg_magician)
-
-История Telegram-группы превращается в базу знаний. Сообщения загружаются в PostgreSQL, индексируются в Qdrant и используются для ответов со ссылками на исходный контекст.
-
-`Python · FastAPI · Telethon · PostgreSQL · Qdrant · vLLM`
-
 ### Meridian Lab
 
 Исследовательская среда для работы с рыночными данными: внешние API, хранение и кэширование, аналитические интерфейсы, проверка гипотез и ML-эксперименты на GPU.
 
 `Go · gRPC · PostgreSQL · React · Docker · Python/ML`
 
-### [Okno Vozm](https://github.com/lexesus93/okno_vozm)
-
-Система карьерной аналитики: версии резюме, сопоставление опыта с вакансиями, подготовка материалов и управление откликами.
-
-`Python · FastAPI · React · Electron · SQLite · Docker`
 
 ### [Slides Wanted](https://github.com/lexesus93/slides_wanted)
 
@@ -158,6 +159,22 @@ Self-hosted интерфейс для общения с несколькими �
 Desktop-приложение, которое распознаёт экзаменационный вопрос на снимке экрана и находит ответ с пояснением в локальной базе билетов.
 
 `Electron · React · Tesseract · Python`
+
+### [Safe Dialog](https://github.com/lexesus93/safe_dialog)
+
+Контур для работы с облачными языковыми моделями. Чувствительные сущности определяются и маскируются локально, после чего обработанный текст отправляется модели. В полученном ответе исходные данные восстанавливаются.
+
+`FastAPI · React · TypeScript · Ollama · OpenRouter · Docker`
+
+### [Telegram Knowledge Assistant](https://github.com/lexesus93/tg_magician)
+
+История Telegram-группы превращается в базу знаний. Сообщения загружаются в PostgreSQL, индексируются в Qdrant и используются для ответов со ссылками на исходный контекст.
+
+`Python · FastAPI · Telethon · PostgreSQL · Qdrant · vLLM`
+
+## Ранние пробы
+
+Safe Dialog и Telegram Knowledge Assistant — незавершённые эксперименты. Текущие рабочие контуры и их архитектура показаны в двух витринах выше.
 
 ## Другие разработки
 
